@@ -1,3 +1,3 @@
-# TASK-2
-Homework2
-https://kirillkolchanov.github.io/TASK-2/
+# Front-end-kirill
+Front-End homework
+https://kirillkolchanov.github.io/Front-end-kirill/
