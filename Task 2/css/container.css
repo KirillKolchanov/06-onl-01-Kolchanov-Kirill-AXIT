@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400&display=swap');
+
+/* * {
+    margin: 0;
+    padding: 0;
+}
+
+.awesome {
+    padding: 15px;
+    margin: 0 auto;
+} */
+
+.container {   
+    max-width: 1170px;
+    margin: 0 auto;
+    text-align: center; 
+    padding: 0 15px;
+}
+
+.awesome__title {
+    width: 410px;
+
+    margin-top: 100px;
+    margin-bottom: 25px;
+    margin-left: auto;
+    margin-right: auto;
+
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 35px;
+
+    text-transform: uppercase;
+    
+
+    color: #212121;
+}
+
+.awesome__line {
+
+    width: 65px;
+    height: 0px;
+
+    margin: 0 auto 30px;
+
+    border: 1px solid #D98943;
+}
+
+.awesome__text {
+
+    width: 360px;
+
+
+    margin: 0 auto 65px ;
+    text-align: center;
+
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+
+    color: #86878B;
+    }
+
+.awesome__boards {
+    display: flex;
+    justify-content: space-between;
+    /* text-align: center; 
+    justify-content: center; */
+}
+
+.awesome__board {
+    width: 350px;
+
+    /* flex-direction: column;  */
+      
+    align-items: center; 
+
+    display: flex;  
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.awesome__board-circle {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+
+    display: flex;  
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    border: 1px solid #D98943;
+    margin-bottom: 30px;
+}
+
+.awesome__board-title {
+    margin-bottom: 16px;
+
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 27px;
+
+    color: #333333;
+}
+
+.awesome__board-text {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+    text-align: center;
+    
+}
+
