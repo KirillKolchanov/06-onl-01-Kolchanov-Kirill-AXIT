@@ -15,7 +15,6 @@
     max-width: 1170px;
     margin: 0 auto;
     text-align: center;
-    width: 100%;
 }
 
 .awesome__title {
@@ -44,7 +43,7 @@
     width: 65px;
     height: 0px;
 
-    margin: 0 auto 30px;
+    margin: 0 auto;
 
     border: 1px solid #D98943;
 }
@@ -54,7 +53,7 @@
     width: 360px;
     height: 20px;
 
-    margin: 0 auto 65px ;
+    margin: 30px auto 65px auto;
     text-align: center;
 
     font-family: 'Open Sans';
@@ -65,22 +64,27 @@
     color: #86878B;
     }
 
+    .awesome__boards {
+    }
+
 .awesome__board {
     width: 350px;
     height: 205px; 
-    padding-left: 30px;
 
+    margin: 30px 16px 0px 16px;
     float: left;
 
     display: flex;
     flex-direction: column;
-    justify-content: center; 
+    justify-content: flex-start;
     align-items: center;
+    text-align: center;
+    max-width: 350px;
 }
 
 .awesome__board-circle {
-    width: 70px;
-    height: 70px;
+    width: 71px;
+    height: 71px;
     border-radius: 50%;
 
     display: flex;
@@ -88,8 +92,9 @@
     justify-content: center;
     align-items: center;
 
+    mix-blend-mode: normal; 
     border: 1px solid #D98943;
-    /* box-sizing: border-box; */
+    box-sizing: border-box;
     
     margin-bottom: 30px;
 }
