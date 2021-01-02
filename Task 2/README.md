@@ -1,3 +1,3 @@
 # Front-end-kirill
 Front-End homework
-https://kirillkolchanov.github.io/Front-end-kirill/
+https://github.com/KirillKolchanov/06-onl-01-Kolchanov-Kirill/tree/main/Task%202
