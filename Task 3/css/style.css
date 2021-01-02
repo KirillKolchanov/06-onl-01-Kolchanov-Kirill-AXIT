@@ -1,0 +1,11 @@
+@import url("../css/container.css");
+
+* {
+    margin: 0;
+    padding: 0;
+    background-color: #F5F5F5;
+}
+
+.pricing {
+    width: 100%;
+}
