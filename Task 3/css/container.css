@@ -1,137 +1,91 @@
-.container {   
+.container {
     max-width: 1170px;
     margin: 0 auto 80px;
-    text-align: center; 
-    padding: 0 15px;   
-    vertical-align: middle;
+    text-align: center;
+    padding: 0 15px;
 }
 
-.pricing__title {
-    width: 410px;
-
-    margin: 80px auto 34px;
+.pricing-title {
+    margin: 80px 0 34px;
+    /* margin: 80px 60px; */
     /* margin-bottom: 34px;
     margin-left: auto;
     margin-right: auto; */
-
     font-family: 'Raleway';
-    font-style: normal;
-    font-weight: 400;
+    font-weight: 400; /* TODO: Check is required or not */
     font-size: 36px;
-
     text-transform: uppercase;
-    
     color: #212121;
 }
 
-.pricing__line {
-
+.pricing-line {
     width: 65px;
     height: 0px;
     align-content: center;
-
     margin: 0 auto 35px;
-
     border: 1px solid #E72424;
 }
 
-.pricing__text {
-    width: 365px;
-
+.pricing-text {
     margin: 0 auto 65px ;
-
-    font-family: 'Open Sans';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-
     color: #86878B;
     }
 
-.pricing__cards {
+.pricing-cards {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
 }
 
-.pricing__card {
+.pricing-card {
     width: 340px;
-
     display: flex;
     flex-direction: column;
-
     margin-bottom: 20px;
     margin-right: 30px;
-
-    list-style-type: none;   
+    list-style-type: none;
 }
 
-.pricing__card-main {
-    width: 340px;
-    height: 50px;
-
+.pricing-card__title {
     margin-bottom: 1px;
     padding-top: 15px;
-
-    /* vertical-align: middle; */
-
-    font-family: 'Open Sans';
-    font-style: normal;
+    padding-bottom: 10px;
     font-weight: 700;
     font-size: 20px;
     color: #FFFFFF;
-
     background-color: #333333;
 }
 
-.pricing__card-price {
-    width: 340px;
-    height: 100px;
-
+.pricing-card__price {
     margin-bottom: 2px;
-    padding-top: 26px;
-
+    padding-top: 25px;
+    padding-bottom: 35px;
     font-family: 'Raleway';
     font-style: normal;
     font-weight: 700;
     font-size: 35px;
     color: #FFFFFF;
-
     background-color: #333333;
 }
 
-.pricing__card-free {
+.pricing-card__tariff_dark {
     width: 340px;
-    height: 50px;
-
     margin-bottom: 4px;
-    padding-top: 17px;
-
-    font-family: 'Open Sans';
-    font-style: normal;
+    padding-top: 20px;
+    padding-bottom: 15px;
     font-weight: 600;
-    font-size: 14px;
     color: rgba(255, 255, 255, 0.5);
-
     background-color: #333333;
 }
 
-.pricing__card__free-orange {
+.pricing-card__tariff_selected {
     background-color: #D98943;
 }
 
-.pricing__card-space {
+.pricing-card__space {
     width: 340px;
-    height: 40px;
-
     margin-bottom: 4px;
-    padding-top: 10px;
-
-    font-family: 'Open Sans';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
+    padding: 10px 0;
     color: #86878B;
-
     background-color: #FFFFFF;
 }

@@ -1,11 +1,42 @@
 @import url("../css/container.css");
 
 * {
-    margin: 0;
-    padding: 0;
-    background-color: #F5F5F5;
+  margin: 0;
+  padding: 0;
+  background-color: #F5F5F5;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+}
+
+h2 {
+  font-family: 'Raleway', sans-serif;
+  font-size: 36px;
+  font-weight: 400;
 }
 
 .pricing {
-    width: 100%;
+  width: 100%;
 }
+
+/* .test {
+  position: relative;
+  text-align: center;
+  background-color: gray;
+  width: 200px;
+  height: 200px;
+}
+
+.test span {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+} */
+
+/* .pricing-card__title:hover {
+  background-color: orange;
+  color: red;
+} */
