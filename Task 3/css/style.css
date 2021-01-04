@@ -4,6 +4,13 @@
   margin: 0;
   padding: 0;
   background-color: #F5F5F5;
+  list-style-type: none;
+}
+
+.container {
+  max-width: 1170px;
+  margin: 0 auto;
+  padding: 0 14px;
 }
 
 body {
