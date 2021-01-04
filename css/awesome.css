@@ -28,6 +28,7 @@
 .awesome-card {
   display: flex;
   justify-content: space-around;
+  flex-wrap: wrap;
 }
 
 .awesome-card__item {
@@ -35,6 +36,8 @@
   align-items: center;
   display: flex;
   flex-direction: column;
+  /* margin-bottom: 20px; */
+  padding-bottom: 20px;
 }
 
 .awesome-card__circle {
