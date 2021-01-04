@@ -27,23 +27,3 @@ h2 {
 .pricing {
   width: 100%;
 }
-
-/* .test {
-  position: relative;
-  text-align: center;
-  background-color: gray;
-  width: 200px;
-  height: 200px;
-}
-
-.test span {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translateX(-50%) translateY(-50%);
-} */
-
-/* .pricing-card__title:hover {
-  background-color: orange;
-  color: red;
-} */
