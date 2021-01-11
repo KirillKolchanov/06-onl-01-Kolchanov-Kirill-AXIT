@@ -1,0 +1,22 @@
+.customers {
+  padding: 15px 0;
+}
+
+.customers-title {
+  margin: 80px 0 34px;
+  color: #212121;
+}
+
+.customers-line {
+  width: 65px;
+  height: 0px;
+  align-content: center;
+  margin: 0 auto 35px;
+  border: 1px solid #E72424;
+}
+
+.customers-text {
+  margin: 0 auto 65px;
+  text-align: center;
+  color: #86878B;
+}
