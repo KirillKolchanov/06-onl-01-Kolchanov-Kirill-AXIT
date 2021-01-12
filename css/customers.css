@@ -29,7 +29,6 @@
 }
 .customers-dialog {
   width: 300px;
-  /* border: 1px solid black; */
 }
 .customer-dialog__message {
   border-radius: 7px;
@@ -43,33 +42,21 @@
   padding-right: 25px;
   color: #86878B;
   position: relative;
-
 }
-
 .customer-dialog__message::after {
   content: '';
   display: block;
-  width: 17px;
-  height: 17px;
-  /* background-color: transparent;
-  border-top: 12px solid #e2e2e2;
-  border-left: 12px solid transparent;
-  border-right: 12px solid transparent;
-  border-bottom: 12px solid transparent; */
-
-  border-top: 20px solid #E2E2E2;
-  border-left: 10px solid transparent;
-  border-right: 10px solid transparent;
-
+  border-top: 17px solid #E2E2E2;
+  border-left: 17px solid transparent;
+  border-right: 17px solid transparent;
   position: absolute;
-  left: 39px;
+  left: 45px;
   top: 100%;
 }
 
 .customer-dialog__person {
   display: flex;
   justify-content: space-around;
-  border: 1px solid black;
 }
 .customer-dialog__photo {
   width: 70px;
