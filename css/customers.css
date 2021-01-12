@@ -54,13 +54,13 @@
   justify-content: space-around;
 }
 .customer-dialog__photo_shiba {
-  background: url('/img/shiba.jpg');
+  background: url(../img/shiba.jpg);
 }
 .customer-dialog__photo_korgi {
-  background: url('/img/korgi.jpg');
+  background: url(../img/korgi.jpg);
 }
 .customer-dialog__photo_samoed {
-  background: url('/img/samoed.jpg');
+  background: url(../img/samoed.jpg);
 }
 .customer-dialog__photo {
   width: 70px;
