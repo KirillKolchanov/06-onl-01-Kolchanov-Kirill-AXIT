@@ -20,3 +20,96 @@
   text-align: center;
   color: #86878B;
 }
+
+.customers-dialogs {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-bottom: 120px;
+}
+.customers-dialog {
+  width: 300px;
+  /* border: 1px solid black; */
+}
+.customer-dialog__message {
+  border-radius: 7px;
+  background-color: #E2E2E2;
+  padding-top: 10px;
+  padding-bottom: 6px;
+  margin-bottom: 40px;
+  font-weight: 400;
+  text-align: center;
+  padding-left: 25px;
+  padding-right: 25px;
+  color: #86878B;
+  position: relative;
+
+}
+
+.customer-dialog__message::after {
+  content: '';
+  display: block;
+  width: 17px;
+  height: 17px;
+  /* background-color: transparent;
+  border-top: 12px solid #e2e2e2;
+  border-left: 12px solid transparent;
+  border-right: 12px solid transparent;
+  border-bottom: 12px solid transparent; */
+
+  border-top: 20px solid #E2E2E2;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+
+  position: absolute;
+  left: 39px;
+  top: 100%;
+}
+
+.customer-dialog__person {
+  display: flex;
+  justify-content: space-around;
+  border: 1px solid black;
+}
+.customer-dialog__photo {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  /* border: 1px solid blue; */
+}
+.customer-dialog__photo_shiba {
+  background: url('/img/shiba.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+.customer-dialog__photo_korgi {
+  background: url('/img/korgi.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+.customer-dialog__photo_samoed {
+  background: url('/img/samoed.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+
+.customer-dialog__person-specific {
+  text-align: right;
+  /* border: 1px solid blue; */
+  margin-top: 8px;
+  line-height: 30px;
+}
+.customer-dialog__person-specific_name {
+  font-size: 20px;
+  font-weight: 700;
+}
+.customer-dialog__person-specific_job {
+  color: #86878B;
+font-weight: 400;
+}
