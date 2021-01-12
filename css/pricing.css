@@ -3,12 +3,10 @@
   padding: 15px 0;
   margin-top: 110px;
 }
-
 .pricing-title {
   margin: 80px 0 34px;
   color: #212121;
 }
-
 .pricing-line {
   width: 65px;
   height: 0px;
@@ -16,20 +14,17 @@
   margin: 0 auto 35px;
   border: 1px solid #E72424;
 }
-
 .pricing-text {
   margin: 0 auto 65px;
   text-align: center;
   color: #86878B;
   }
-
 .pricing-cards {
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
   margin-bottom: 80px;
 }
-
 .pricing-card__item {
   width: 340px;
   display: flex;
@@ -38,7 +33,6 @@
   margin-right: 30px;
   list-style-type: none;
 }
-
 .pricing-card__title {
   margin-bottom: 1px;
   padding-top: 15px;
@@ -49,7 +43,6 @@
   color: #FFFFFF;
   background-color: #333333;
 }
-
 .pricing-card__price {
   margin-bottom: 2px;
   padding-top: 25px;
@@ -62,7 +55,6 @@
   color: #FFFFFF;
   background-color: #333333;
 }
-
 .pricing-card__tariff_dark {
   width: 340px;
   margin-bottom: 4px;
@@ -73,11 +65,10 @@
   color: rgba(255, 255, 255, 0.5);
   background-color: #333333;
 }
-
-.pricing-card__tariff_selected {
+.pricing-card__tariff_dark:hover {
   background-color: #D98943;
+  color: #f5f5f5;
 }
-
 .pricing-card__space {
   width: 340px;
   margin-bottom: 4px;
@@ -85,4 +76,8 @@
   color: #86878B;
   text-align: center;
   background-color: #FFFFFF;
+}
+.pricing-card__space:hover {
+  background-color:  #ca6060;
+  color: rgb(255, 255, 255);
 }

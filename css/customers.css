@@ -26,6 +26,10 @@
 .customers-dialog {
   width: 300px;
 }
+.customers-dialog:hover {
+  border: 1px solid #E72424;
+  padding: 5px;
+}
 .customer-dialog__message {
   border-radius: 7px;
   background-color: #E2E2E2;
