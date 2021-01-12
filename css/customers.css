@@ -29,13 +29,10 @@
 .customer-dialog__message {
   border-radius: 7px;
   background-color: #E2E2E2;
-  padding-top: 10px;
-  padding-bottom: 6px;
+  padding: 10px 25px 50px;
   margin-bottom: 40px;
   font-weight: 400;
   text-align: center;
-  padding-left: 25px;
-  padding-right: 25px;
   color: #86878B;
   position: relative;
 }
