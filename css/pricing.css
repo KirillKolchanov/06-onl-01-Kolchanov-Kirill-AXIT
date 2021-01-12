@@ -68,7 +68,7 @@
   background-color: #333333;
 }
 .pricing-card__tariff_dark:hover {
-  background-color: #D98943;
+  background-color: rgba(190, 114, 48, 0.8);
   color: #f5f5f5;
 }
 .pricing-card__space {
