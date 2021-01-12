@@ -20,6 +20,7 @@
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
+  margin: 0 -10px;
 }
 .awesome-card__item {
   width: 350px;
@@ -27,6 +28,7 @@
   display: flex;
   flex-direction: column;
   padding-bottom: 20px;
+  margin: 0 10px 10px;
 }
 .awesome-card__item:hover {
   border: 1px solid #D98943;

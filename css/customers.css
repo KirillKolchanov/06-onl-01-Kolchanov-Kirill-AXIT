@@ -1,5 +1,6 @@
 .customers {
   padding: 15px 0;
+  border: 1px solid black;
 }
 .customers-title {
   margin: 80px 0 34px;
@@ -21,9 +22,11 @@
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
+  margin: 0 -10px;
 }
 .customers-dialog {
   width: 300px;
+  margin: 0 10px 10px;
 }
 .customers-dialog:hover {
   border: 1px solid #E72424;
