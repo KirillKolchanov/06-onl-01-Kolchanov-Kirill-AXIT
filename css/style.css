@@ -13,6 +13,10 @@
   margin: 0 auto;
   padding: 0 15px;
 }
+.design .container {
+  position: relative;
+  z-index: 1;
+}
 body {
   font-family: 'Open Sans', sans-serif;
   font-size: 14px;

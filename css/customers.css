@@ -28,8 +28,9 @@
   margin: 0 10px 10px;
 }
 .customers-dialog:hover {
-  border: 1px solid #E72424;
-  padding: 5px;
+  border: transparent;
+  border: 1px solid red;
+  /* border: transparent; */
 }
 .customer-dialog__message {
   border-radius: 7px;

@@ -6,6 +6,7 @@
   background-size: cover;
   position: relative;
   margin-top: 120px;
+
 }
 
 .design::after {
@@ -22,8 +23,6 @@
   margin-top: 60px;
   margin-bottom: 35px;
   color: #ffffff;
-  position: relative;
-  z-index: 1;
 }
 
 .design-line {
@@ -32,8 +31,6 @@
   align-content: center;
   margin: 0 auto 35px;
   border: 1px solid #ffffff;
-  position: relative;
-  z-index: 1;
 }
 
 .design-text {
@@ -41,8 +38,6 @@
   color: #ffffff;
   opacity: 80%;
   font-weight: 300;
-  position: relative;
-  z-index: 1;
 }
 
 .design-button__download {
@@ -57,8 +52,6 @@
   line-height: 20px;
   color: #ffffff;
   text-decoration: none;
-  position: relative;
-  z-index: 1;
 }
 
 .design-button__download:hover {
