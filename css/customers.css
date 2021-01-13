@@ -1,10 +1,12 @@
 .customers {
   padding: 15px 0;
 }
+
 .customers-title {
   margin: 80px 0 34px;
   color: #212121;
 }
+
 .customers-line {
   width: 65px;
   height: 0px;
@@ -12,26 +14,31 @@
   margin: 0 auto 35px;
   border: 1px solid #E72424;
 }
+
 .customers-text {
   margin: 0 auto 65px;
   text-align: center;
   color: #86878B;
 }
+
 .customers-dialogs {
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
   margin: 0 -10px;
 }
+
 .customers-dialog {
   width: 300px;
   margin: 0 10px 10px;
 }
+
 .customers-dialog:hover {
-  border: transparent;
-  border: 1px solid red;
+  /* border: transparent; */
+  /* border: 1px solid red; */
   /* border: transparent; */
 }
+
 .customer-dialog__message {
   border-radius: 7px;
   background-color: #E2E2E2;
@@ -43,6 +50,7 @@
   position: relative;
   box-shadow: 1px 2px 15px 2px #86878B;
 }
+
 .customer-dialog__message::after {
   content: '';
   display: block;
@@ -53,19 +61,24 @@
   left: 45px;
   top: 100%;
 }
+
 .customer-dialog__person {
   display: flex;
   justify-content: space-around;
 }
+
 .customer-dialog__photo_shiba {
   background: url(../img/shiba.jpg);
 }
+
 .customer-dialog__photo_korgi {
   background: url(../img/korgi.jpg);
 }
+
 .customer-dialog__photo_samoed {
   background: url(../img/samoed.jpg);
 }
+
 .customer-dialog__photo {
   width: 70px;
   height: 70px;
@@ -75,15 +88,18 @@
   background-size: cover;
   position: relative;
 }
+
 .customer-dialog__person-specific {
   text-align: right;
   margin-top: 8px;
   line-height: 30px;
 }
+
 .customer-dialog__person-specific_name {
   font-size: 20px;
   font-weight: 700;
 }
+
 .customer-dialog__person-specific_job {
   color: #86878B;
   font-weight: 400;

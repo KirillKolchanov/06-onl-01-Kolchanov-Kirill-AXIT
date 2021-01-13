@@ -4,24 +4,28 @@
   color: #212121;
   text-align: center;
 }
+
 .awesome-line {
   width: 65px;
   height: 0px;
   margin: 0 auto 30px;
   border: 1px solid #D98943;
 }
+
 .awesome-text {
   margin-bottom: 60px;
   color: #86878B;
   font-weight: 400;
   text-align: center;
   }
+
 .awesome-card {
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
   margin: 0 -10px;
 }
+
 .awesome-card__item {
   width: 350px;
   align-items: center;
@@ -30,11 +34,13 @@
   padding-bottom: 20px;
   margin: 0 10px 10px;
 }
+
 .awesome-card__item:hover {
   border: 1px solid #D98943;
   border-radius: 5px;
   padding: 7px;
 }
+
 .awesome-card__circle {
   width: 71px;
   height: 71px;
@@ -45,17 +51,19 @@
   align-items: center;
   border: 1px solid #D98943;
 }
+
 .awesome-card__circle:hover {
   border: 1px solid #4725c0;
 }
+
 .awesome-card__title {
   margin-bottom: 16px;
   font-weight: 700;
   font-size: 20px;
   color: #333333;
 }
+
 .awesome-card__text {
   line-height: 20px;
   text-align: center;
 }
-
