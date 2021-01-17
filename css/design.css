@@ -54,9 +54,10 @@
 }
 
 .design-button__download:hover {
-  background-color: floralwhite;
-  font-size: 17px;
-  position: relative;
+  transition-property: all;
+  transition-duration: 0.5s;
   color: black;
+  background-color: floralwhite;
+
 }
 

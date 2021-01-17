@@ -34,7 +34,7 @@
 }
 
 .customers-dialog:hover {
-  transform: scale(1.3, 1.3);
+  transform: scale(1.1, 1.1);
   transition-duration: 0.5s;
   transition-property: all;
 }
