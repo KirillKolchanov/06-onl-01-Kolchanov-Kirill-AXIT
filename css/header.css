@@ -1,4 +1,4 @@
-.nav {
+.header {
   background: #000000;
 }
 
@@ -6,8 +6,8 @@
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
-  margin-left: 110px;
-  margin-right: 110px;
+  /* margin-left: 110px;
+  margin-right: 110px; */
 }
 
 .navigation-bar__img {
