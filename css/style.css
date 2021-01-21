@@ -6,6 +6,7 @@
 @import url("../css/social.css");
 @import url("../css/banner.css");
 @import url("../css/header.css");
+@import url("../css/contact.css");
 @import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css');
 
 * {
@@ -35,7 +36,6 @@ h2 {
   font-size: 36px;
   font-weight: 400;
   text-transform: uppercase;
-  /* text-align: center; */
 }
 
 h4 {
@@ -64,3 +64,4 @@ h4 {
   color: black;
   background-color: floralwhite;
 }
+

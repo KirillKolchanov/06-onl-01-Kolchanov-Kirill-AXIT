@@ -28,17 +28,29 @@
 </header>
 
   <section class="banner">
-    <div class="banner-content">
-      <div class="banner-content__main">
-        <div class="banner-content__main-img"><img src="/img/big_logo.png" alt=""></div>
-        <h2>modern axure template for beatiful prototypes</h2>
-        <div class="banner-content__main-line"></div>
-        <p class="banner-content__main-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-          Aenean</p>
-        <a href="#" class="banner-content__main-button button-download" >Download</a>
-      </div>
-      <div class="banner-content__form">
-        <p class="banner-content__form-title">Try Your <span class="banner-content__form-title_pink">FREE</span> Trial Today</p>
+    <div class="container">
+      <div class="banner-container">
+        <div class="banner-main">
+          <div class="banner-main__img"><img src="/img/big_logo.png" alt=""></div>
+          <h2>modern axure template for beatiful prototypes</h2>
+          <div class="banner-main__line"></div>
+          <p class="banner-main__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            Aenean</p>
+          <a href="#" class="banner-main__button button-download" >Download</a>
+        </div>
+        <form action="index.html" method="post" class="banner-form">
+          <p class="banner-form__title">Try Your <span class="banner-form__title_pink">free</span> Trial Today</p>
+          <div class="banner-form__container">
+              <label for="banner.form.name" class="banner-form__label">Name</label>
+              <input type="text" id="banner.form.name" class="banner-form__input">
+              <label for="banner.form.email" class="banner-form__label">Email</label>
+              <input type="email" id="banner.form.email" class="banner-form__input">
+              <label for="banner.form.password" class="banner-form__label">Password</label>
+              <input type="password" id="banner.form.password" class="banner-form__input">
+          </div>
+              <button class="banner-form__button" type="Submit">Get started</button>
+          </form>
+        </div>
       </div>
     </div>
   </section>
@@ -229,6 +241,33 @@
       <a href="#" class="design-button__download button-download">Download</a>
     </div>
 
+  </section>
+
+  <section class="contact">
+    <div class="container">
+      <h2 class="contact-title">Contact us</h2>
+      <div class="contact-line"></div>
+      <h4 class="contact-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h4>
+
+
+      <form action="#" method="post" class="contact-form">
+        <div class="contact-form__container">
+          <div class="contact-form__block">
+            <label for="contact.form.name" class="contact-form__label">Name</label>
+            <input type="text" id="contact.form.name" class="contact-form__input" />
+            <label for="contact.form.email" class="contact-form__label">Email</label>
+            <input type="email" id="contact.form.email" class="contact-form__input" />
+            <label for="contact.form.password" class="contact-form__label">Password</label>
+            <input type="password" id="contact.form.password" class="contact-form__input" />
+          </div>
+          <div class="contact-form__block">
+            <label for="contact.form.message" class="contact-form__label">Message</label>
+            <textarea id="contact.form.message" class="contact-form__input contact-form__input_full-size" rows="12"></textarea>
+          </div>
+        </div>
+        <button class="contact-form__button" type="submit">Send message</button>
+      </form>
+    </div>
   </section>
 
   <footer class="footer">

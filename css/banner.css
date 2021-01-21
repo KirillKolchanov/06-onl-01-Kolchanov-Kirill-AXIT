@@ -1,5 +1,5 @@
 .banner {
-  background: url(/img/header.png);
+  background: url(/img/banner.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -16,18 +16,19 @@
   background: rgba(0, 0, 0, 0.55);
 }
 
-.banner-content {
+.banner-container {
   position: relative;
   z-index: 1;
   padding-top: 110px;
   padding-bottom: 100px;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
+  flex-wrap: wrap;
+
 }
 
-.banner-content__main {
+.banner-main {
   width: 545px;
-  border: 1px solid red;
 }
 
 .banner h2 {
@@ -35,14 +36,14 @@
   margin-top: 30px;
 }
 
-.banner-content__main-line {
+.banner-main__line {
   width: 65px;
   height: 0px;
   border: 1px solid #ffffff;
   margin-top: 30px;
 }
 
-.banner-content__main-text {
+.banner-main__text {
   width: 280px;
   color: #ffffff;
   opacity: 80%;
@@ -52,21 +53,58 @@
   font-size: 16px;
 }
 
-.banner-content__form {
-  border: 1px solid yellow;
+.banner-form {
   width: 370px;
   background: #FFFFFF;
   border-radius: 8px;
 }
 
-.banner-content__form-title {
+.banner-form__title {
   font-size: 20px;
   color: #333333;
   font-weight: 700;
   text-align: center;
   margin-top: 18px;
+  margin-bottom: 44px;
 }
 
-.banner-content__form-title_pink {
+.banner-form__container {
+  width: 252px;
+  margin: 0 auto 70px auto;
+}
+
+.banner-form__title_pink {
   color: #EC7979;
+  text-transform: uppercase;
+}
+
+.banner-form__label {
+  display: block;
+  font-weight: 400;
+  line-height: 19px;
+  color: #bdbdbd;
+  margin: 19px auto 0 auto;
+}
+
+.banner-form__input {
+  display: block;
+  border-bottom: 1px solid #bdbdbd;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  padding: 2px;
+  width: 100%;
+}
+
+.banner-form__button {
+  width: 100%;
+  padding: 16px 0 17px 0;
+  background-color: #ec7979;
+  border: none;
+  color: white;
+  border-bottom-right-radius: 8px;
+  border-bottom-left-radius: 8px;
+  font-weight: 600;
+  font-size: 16px;
+  color: #FFFFFF;
 }
