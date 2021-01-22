@@ -1,9 +1,14 @@
+.contact-container {
+  padding-top: 80px;
+  padding-bottom: 30px;
+}
 
 .contact-title {
-  margin: 80px 0 34px;
+  margin-bottom: 35px;
   color: #212121;
   text-align: center;
 }
+
 .contact-line {
   width: 65px;
   height: 0px;
@@ -11,14 +16,11 @@
   margin: 0 auto 35px;
   border: 1px solid #E72424;
 }
+
 .contact-text {
   margin: 0 auto 95px;
   text-align: center;
   color: #86878B;
-}
-
-.contact-form {
-  margin-bottom: 29px;
 }
 
 .contact-form__container {

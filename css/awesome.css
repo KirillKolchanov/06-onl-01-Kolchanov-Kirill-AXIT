@@ -1,5 +1,11 @@
+
+.awesome-container {
+  padding-top: 80px;
+  padding-bottom: 115px;
+}
+
 .awesome-title {
-  margin: 100px 0 25px;
+  margin-bottom: 25px;
   text-transform: uppercase;
   color: #212121;
   text-align: center;
