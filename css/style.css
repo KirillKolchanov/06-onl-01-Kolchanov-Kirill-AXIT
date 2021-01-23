@@ -81,11 +81,11 @@ h4 {
   }
 }
 
-@media (max-width:992px) {
+/* @media (max-width:992px) {
   .container {
     max-width: 750px;
   }
-}
+} */
 
 @media (max-width:767px) {
   .container {

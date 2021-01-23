@@ -14,10 +14,11 @@
 
 .navigation-bar__list {
   display: flex;
-  flex-wrap: wrap;
+  /* flex-wrap: wrap; */
   width: 505px;
   justify-content: space-between;
   margin: 25px 0;
+  margin-right: 10px;
 }
 
 .navigation-bar__list_text

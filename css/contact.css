@@ -94,12 +94,6 @@
     font-size: 14px;
   }
 
-  .contact-form__container {
-    /* display: flex; */
-    /* justify-content: center; */
-    /* align-items: stretch; */
-  }
-
   .contact-form__block {
     flex: 1 1 200px;
     max-width: 478px;
