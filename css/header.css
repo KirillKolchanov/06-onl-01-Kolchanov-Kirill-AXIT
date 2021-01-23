@@ -39,3 +39,7 @@
 .navigation-bar__list_item:hover {
   transform: scale(1.2, 1.2);
 }
+
+@media (max-width:1170px) {
+
+}

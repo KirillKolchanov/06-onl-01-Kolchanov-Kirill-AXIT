@@ -34,3 +34,10 @@
   text-align: center;
   color: rgba(255, 255, 255, 0.5);
 }
+
+@media (max-width:1170px) {
+  .footer-network {
+    margin: 0px auto 12px auto;
+    font-size: 19px;
+  }
+}

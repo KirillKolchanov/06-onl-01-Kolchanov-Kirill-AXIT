@@ -23,7 +23,7 @@
   padding-bottom: 100px;
   display: flex;
   justify-content: space-between;
-  flex-wrap: wrap;
+  /* flex-wrap: wrap; */
 }
 
 .banner-main {
@@ -107,4 +107,68 @@
   font-weight: 600;
   font-size: 16px;
   color: #FFFFFF;
+}
+
+@media (max-width:1170px) {
+  .banner-container {
+    position: relative;
+    z-index: 1;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .banner-main {
+    width: 450px;
+    margin-left: 50px;
+  }
+
+  .banner h2 {
+    margin-top: 20px;
+  }
+
+  .banner-main__line {
+    margin-top: 20px;
+  }
+
+  .banner-main__text {
+    width: 250px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    font-size: 14px;
+  }
+
+  .banner-form {
+    width: 250px;
+    margin-right: 120px;
+  }
+
+  .banner-form__title {
+    font-size: 16px;
+    margin-top: 12px;
+    margin-bottom: 20px;
+  }
+
+  .banner-form__container {
+    width: 200px;
+    margin: 0 auto 30px auto;
+  }
+
+  .banner-form__label {
+    line-height: 15px;
+    margin: 15px auto 0 auto;
+    font-size: 12px;
+  }
+
+  .banner-form__input {
+    padding-top: 5px;
+    height: 15px;
+  }
+
+  .banner-form__button {
+    width: 100%;
+    padding: 10px 0 10px 0;
+    font-size: 14px;
+  }
 }

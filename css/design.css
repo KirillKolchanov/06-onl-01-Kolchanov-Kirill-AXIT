@@ -7,6 +7,11 @@
   position: relative;
 }
 
+.design-container {
+  padding-top: 60px;
+  padding-bottom: 40px;
+}
+
 .design::after {
   content: '';
   position: absolute;
@@ -18,7 +23,6 @@
 }
 
 .design-title {
-  margin-top: 60px;
   margin-bottom: 35px;
   color: #ffffff;
   text-align: center;
@@ -40,5 +44,29 @@
 }
 
 .design-button__download {
-  margin: 60px auto 40px auto;
+  margin: 60px auto 0 auto;
+}
+
+@media (max-width:1170px) {
+  .design-container {
+    padding-top: 30px;
+    padding-bottom: 15px;
+  }
+
+  .design-title {
+    margin-bottom: 20px;
+  }
+
+  .design-line {
+    margin: 0 auto 20px;
+  }
+
+  .design-text {
+    margin: 0 auto 25px;
+    font-size: 14px;
+  }
+
+  .design-button__download {
+    margin-top: 40px;
+  }
 }

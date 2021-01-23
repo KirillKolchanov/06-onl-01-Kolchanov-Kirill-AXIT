@@ -26,8 +26,6 @@
 .customers-dialogs {
   display: flex;
   justify-content: space-around;
-  flex-wrap: wrap;
-  margin: 0 -10px;
 }
 
 .customers-dialog {
@@ -105,4 +103,66 @@
 .customer-dialog__person-specific_job {
   color: #86878B;
   font-weight: 400;
+}
+
+@media (max-width:1170px) {
+  .customers-container {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+
+  .customers-title {
+    margin-bottom: 20px;
+  }
+
+  .customers-line {
+    margin: 0 auto 20px;
+  }
+
+  .customers-text {
+    margin: 0 auto 40px;
+    font-size: 14px;
+  }
+
+  .customers-dialog {
+    width: 220px;
+  }
+
+  .customers-dialog:hover {
+    transform: scale(1.1, 1.1);
+    transition-duration: 0.5s;
+    transition-property: all;
+  }
+
+  .customer-dialog__message {
+    border-radius: 7px;
+    padding: 5px 10px 6px;
+    margin-bottom: 30px;
+    box-shadow: 1px 2px 10px 2px #86878B;
+    font-size: 10px;
+  }
+
+  .customer-dialog__message::after {
+    border-top: 10px solid #E2E2E2;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+  }
+
+  .customer-dialog__photo {
+    width: 50px;
+    height: 50px;
+  }
+
+  .customer-dialog__person-specific {
+    margin-top: 4px;
+    line-height: 20px;
+  }
+
+  .customer-dialog__person-specific_name {
+    font-size: 16px;
+  }
+
+  .customer-dialog__person-specific_job {
+    font-size: 12px;
+  }
 }

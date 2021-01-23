@@ -66,3 +66,29 @@ h4 {
   background-color: floralwhite;
 }
 
+@media (max-width:1170px) {
+  .container {
+    max-width: 970px;
+  }
+  h2 {
+    font-size: 20px;
+  }
+  .button-download {
+    padding: 5px 15px;
+    width: 75px;
+    font-size: 12px;
+    line-height: 15px;
+  }
+}
+
+@media (max-width:992px) {
+  .container {
+    max-width: 750px;
+  }
+}
+
+@media (max-width:767px) {
+  .container {
+    max-width: none;
+  }
+}

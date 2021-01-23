@@ -26,9 +26,7 @@
 .contact-form__container {
   display: flex;
   justify-content: space-around;
-  flex-wrap: wrap;
   align-items: stretch;
-  margin: 0 -15px;
 }
 
 .contact-form__block {
@@ -42,8 +40,6 @@
 
 .contact-form__label {
   font-family: 'Open Sans';
-  font-style: normal;
-  font-weight: normal;
   font-size: 14px;
   line-height: 19px;
   color: #bdbdbd;
@@ -77,4 +73,56 @@
   background-color: #EC7979;
   border: none;
   text-align: center;
+}
+
+@media (max-width:1170px) {
+  .contact-container {
+    padding-top: 40px;
+    padding-bottom: 20px;
+  }
+
+  .contact-title {
+    margin-bottom: 20px;
+  }
+
+  .contact-line {
+    margin: 0 auto 20px;
+  }
+
+  .contact-text {
+    margin: 0 auto 30px;
+    font-size: 14px;
+  }
+
+  .contact-form__container {
+    /* display: flex; */
+    /* justify-content: center; */
+    /* align-items: stretch; */
+  }
+
+  .contact-form__block {
+    flex: 1 1 200px;
+    max-width: 478px;
+    margin-left: 70px;
+  }
+
+  .contact-form__label {
+    font-size: 12px;
+    line-height: 12px;
+    margin: 15px 0 0 0;
+  }
+
+  .contact-form__input {
+    height: 15px;
+    margin-top: 5px;
+    font-size: 12px;
+    width: 80%;
+  }
+
+  .contact-form__button {
+    width: 150px;
+    padding: 10px 25px;
+    margin-top: 30px;
+    font-size: 12px;
+  }
 }
