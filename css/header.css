@@ -14,7 +14,6 @@
 
 .navigation-bar__list {
   display: flex;
-  /* flex-wrap: wrap; */
   width: 505px;
   justify-content: space-between;
   margin: 25px 0;
@@ -41,6 +40,16 @@
   transform: scale(1.2, 1.2);
 }
 
-@media (max-width:1170px) {
-
+@media only screen and (max-width:940px) {
+  .navigation-bar__list_text{
+  font-size: 12px;
+  }
+  .navigation-bar__img {
+    margin: 10px 0;
+  }
+.navigation-bar__list {
+  width: 400px;
+  margin: 15px 0;
+  margin-right: 20px;
+  }
 }

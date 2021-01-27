@@ -105,35 +105,24 @@
   font-weight: 400;
 }
 
-@media (max-width:1170px) {
+@media only screen and (max-width:1170px) {
   .customers-container {
     padding-top: 30px;
     padding-bottom: 30px;
   }
-
   .customers-title {
     margin-bottom: 20px;
   }
-
   .customers-line {
     margin: 0 auto 20px;
   }
-
   .customers-text {
     margin: 0 auto 40px;
     font-size: 14px;
   }
-
   .customers-dialog {
     width: 220px;
   }
-
-  .customers-dialog:hover {
-    transform: scale(1.1, 1.1);
-    transition-duration: 0.5s;
-    transition-property: all;
-  }
-
   .customer-dialog__message {
     border-radius: 7px;
     padding: 5px 10px 6px;
@@ -141,28 +130,111 @@
     box-shadow: 1px 2px 10px 2px #86878B;
     font-size: 10px;
   }
-
   .customer-dialog__message::after {
     border-top: 10px solid #E2E2E2;
     border-left: 10px solid transparent;
     border-right: 10px solid transparent;
   }
-
   .customer-dialog__photo {
     width: 50px;
     height: 50px;
   }
-
   .customer-dialog__person-specific {
     margin-top: 4px;
     line-height: 20px;
   }
-
   .customer-dialog__person-specific_name {
     font-size: 16px;
   }
-
   .customer-dialog__person-specific_job {
     font-size: 12px;
+  }
+}
+
+@media only screen and (max-width:940px) {
+  .customers-container {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  .customers-title {
+    margin-bottom: 15px;
+  }
+  .customers-line {
+    margin: 0 auto 15px;
+  }
+  .customers-text {
+    margin: 0 auto 25px;
+    font-size: 10px;
+  }
+  .customers-dialog {
+    width: 180px;
+  }
+  .customer-dialog__message::after {
+    border-top: 5px solid #E2E2E2;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+  }
+  .customer-dialog__message {
+    padding: 3px 7px 6px;
+    margin-bottom: 20px;
+    font-size: 8px;
+  }
+  .customer-dialog__photo {
+    width: 40px;
+    height: 40px;
+  }
+  .customer-dialog__person-specific {
+    margin-top: 4px;
+    line-height: 15px;
+  }
+  .customer-dialog__person-specific_name {
+    font-size: 12px;
+  }
+  .customer-dialog__person-specific_job {
+    font-size: 10px;
+  }
+}
+
+@media only screen and (max-width:420px) {
+  .customers-container {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  .customers-title {
+    margin-bottom: 10px;
+    font-size: 12px;
+  }
+  .customers-line {
+    margin: 0 auto 10px;
+  }
+  .customers-text {
+    margin: 0 auto 15px;
+    font-size: 8px;
+  }
+  .customers-dialog {
+    width: 180px;
+  }
+  .customer-dialog__message::after {
+    display: none;
+  }
+  .customer-dialog__message {
+    padding: 3px 7px 6px;
+    margin-bottom: 10px;
+    font-size: 8px;
+    box-shadow: none;
+  }
+  .customer-dialog__photo {
+    display: none;
+  }
+  .customer-dialog__person-specific {
+    margin-top: 4px;
+    line-height: 15px;
+    text-align: center;
+  }
+  .customer-dialog__person-specific_name {
+    font-size: 10px;
+  }
+  .customer-dialog__person-specific_job {
+    font-size: 8px;
   }
 }

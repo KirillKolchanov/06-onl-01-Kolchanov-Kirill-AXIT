@@ -47,26 +47,43 @@
   margin: 60px auto 0 auto;
 }
 
-@media (max-width:1170px) {
+@media only screen and (max-width:1170px) {
   .design-container {
     padding-top: 30px;
     padding-bottom: 15px;
   }
-
   .design-title {
     margin-bottom: 20px;
   }
-
   .design-line {
     margin: 0 auto 20px;
   }
-
   .design-text {
     margin: 0 auto 25px;
     font-size: 14px;
   }
-
   .design-button__download {
     margin-top: 40px;
+  }
+}
+
+@media only screen and (max-width:940px) {
+  .design-container {
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
+  .design-title {
+    margin-bottom: 15px;
+  }
+  .design-line {
+    margin: 0 auto 15px;
+  }
+  .design-text {
+    margin: 0 auto 15px;
+    font-size: 10px;
+    width: 320px;
+  }
+  .design-button__download {
+    margin-top: 20px;
   }
 }

@@ -66,7 +66,7 @@ h4 {
   background-color: floralwhite;
 }
 
-@media (max-width:1170px) {
+@media only screen and (max-width:1170px) {
   .container {
     max-width: 970px;
   }
@@ -81,14 +81,21 @@ h4 {
   }
 }
 
-/* @media (max-width:992px) {
+@media only screen and (max-width:940px) {
   .container {
-    max-width: 750px;
+    max-width: 760px;
   }
-} */
+  h2 {
+    font-size: 16px;
+  }
+  .button-download {
+    padding: 5px 10px;
+    width: 55px;
+    font-size: 10px;
+    line-height: 12px;
+  }
+}
 
-@media (max-width:767px) {
-  .container {
-    max-width: none;
-  }
+@media only screen and (max-device-width:768px) {
+
 }

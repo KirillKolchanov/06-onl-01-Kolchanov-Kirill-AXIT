@@ -49,7 +49,7 @@
   transform: scale(1.2, 1.2);
 }
 
-@media (max-width:1170px) {
+@media only screen and (max-width:1170px) {
   .social-container {
     display: flex;
     justify-content: space-around;
@@ -65,5 +65,37 @@
   }
   .social-media {
     width: 485px;
+  }
+}
+
+@media only screen and (max-width:940px) {
+  .social-container {
+    display: flex;
+    justify-content: space-around;
+  }
+  .social-text {
+    width: 250px;
+  }
+  .social-text__title {
+    font-size: 14px;
+  }
+  .social-text__main-text {
+    margin-top: 8px;
+    font-size: 10px;
+  }
+  .social-media__item {
+    font-size: 26px;
+  }
+  .social-media {
+    width: 380px;
+  }
+}
+
+@media only screen and (max-width:515px) {
+  .social-text {
+    display: none;
+  }
+  .social-media {
+    margin-top: 0px;
   }
 }
